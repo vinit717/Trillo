@@ -1,0 +1,17 @@
+-- fill property is used for color the svg
+
+
+ <svg class="side-nav__icon">
+      <use xlink:href="img/sprite.svg#icon-home"></use>
+ </svg> 
+-- by include sprite.svg we only use one http request
+
+
+--in fill we can directly give current color --- fill:currentColor
+
+transition-origin by this we can give place to start to transistion (botoom,center,top)
+
+--cubic-bezier is used to adjust transition timming
+
+
+--z index is only work if we specified the position
